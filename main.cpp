@@ -29,7 +29,7 @@ int main() {
   cin>>H;
   double P = ((997)*(Q)*(H)*(9.81));
   cout<<"The power generated (watts) is "<<P<<endl;
-  return ;
+  return P;
 
   }
   

@@ -12,13 +12,7 @@ int main() {
   p = powerGen(H, Q);
   cout<<p<<endl;
   
-  /**
-  cout<<"Enter value for volume flow rate (m3/s):"<<endl;
-  cin>>Q;
-  cout<<"Enter value for head distance (m)"<<endl;
-  cin>>H;**/
-  //double P = ((997)*(Q)*(H)*(9.81));
- // cout<<"The power generated (watts) is "<<powerGen()<<endl;
+
 
   //Value for flow rae of 20 and head distance of 14 is = 273856 watts
   //
@@ -35,7 +29,7 @@ int main() {
   cin>>H;
   double P = ((997)*(Q)*(H)*(9.81));
   cout<<"The power generated (watts) is "<<P<<endl;
-  return ;
+  return P;
 
   }
   
