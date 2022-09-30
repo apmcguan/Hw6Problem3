@@ -15,7 +15,7 @@ int main() {
 
 
   //Value for flow rae of 20 and head distance of 14 is = 273856 watts
-  //
+  // Value for flow rae of 20 and head distance of 30 is = 5 5.86834e+06 watts
     
   }
   
