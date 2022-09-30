@@ -28,9 +28,8 @@ int main() {
   cout<<"Enter value for head distance (m)"<<endl;
   cin>>H;
   double P = ((997)*(Q)*(H)*(9.81));
-  cout<<"The power generated (watts) is "<<P<<endl;
   return P;
-
+  
   }
   
 
